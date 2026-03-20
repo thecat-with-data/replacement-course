@@ -1,0 +1,5 @@
+# HTML Templates for D2L
+templates/
+
+# D2L Brightspace export files
+*.zip
