@@ -1,0 +1,27 @@
+NewQuestion,MC,
+QuestionText,"What helps you move quickly through a document and find specific sections?",
+Option,0,"Styling Guide",
+Option,100,"Navigation Pane",
+Option,0,"Table of Contents",
+
+NewQuestion,MC,
+QuestionText,"What feature allows you to apply consistent formatting throughout a document with a single click?",
+Option,100,"Styles",
+Option,0,"Table of Contents",
+Option,0,"Headings",
+
+NewQuestion,TF,
+QuestionText,"Hitting 'Enter' twice is the best way to create a new paragraph in Microsoft Word.",
+Option,0,"True",
+Option,100,"False",
+
+NewQuestion,MC,
+QuestionText,"Why should you avoid manually formatting text in a document?",
+Option,100,"It's harder to maintain consistency",
+Option,0,"It's faster to do manually",
+Option,0,"It's more visually appealing",
+
+NewQuestion,TF,
+QuestionText,"Proper accessibility features can help make a document usable for people with disabilites.",
+Option,100,"True",
+Option,0,"False",
