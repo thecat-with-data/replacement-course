@@ -1,0 +1,35 @@
+NewQuestion,MC,
+QuestionText,"What is the difference between text formatting and paragraph formatting?",
+Option,0,"They are the same.",
+Option,0,"Text formatting changes spacing; paragraph formatting changes font.",
+Option,100,"Text formatting affects characters; paragraph formatting affects blocks of text.",
+Option,0,"Paragraph formatting is only for headings.",
+
+NewQuestion,MC,
+QuestionText,"When should you use line spacing instead of pressing Enter twice?"
+Option,0,"When adding a new page.",
+Option,100,"When adding visual separation between paragraphs.",
+Option,0,"When creating headings.",
+Option,0,"When inserting a table.",
+
+NewQuestion,MC,
+QuestionText,"What is a hanging indent used for?",
+Option,100,"Bibliographies or reference lists.",
+Option,0,"Main headings.",
+Option,0,"Centering text.",
+Option,0,"Starting new pages."
+
+NewQuestion,MC,
+QuestionText,"Why shouldn’t headings be created using bold and larger fonts?",
+Option,0,"Because bold text crashes Word."
+Option,0,"Because headings must always be centered.",
+Option,0,"Because Word doesn’t allow font size changes.",
+Option,100,"Because they won’t appear in the Navigation Pane or structure tools.",
+
+NewQuestion,MC,
+QuestionText,"Which list type should you use for step-by-step instructions?",
+Option,0,"Bulleted list",
+Option,0,"Multilevel list",
+Option,100,"Numbered list"
+Option,0,"Heading list",
+Option,0,"Numbered list",
