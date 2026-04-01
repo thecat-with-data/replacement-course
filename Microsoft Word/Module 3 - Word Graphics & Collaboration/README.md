@@ -15,12 +15,12 @@ By the end of Module 3, students should be able to:
 - Re-check accessibility after edits
 
 ## Main content
-- `Module 3 - Overview.html`
-- `lessons/Lesson 1.html`
-- `labs/Word Project.html`
+- [Module 3 - Overview](Module 3 - Overview.html)
+- [Lesson 1](lessons/Lesson 1.html)
+- [Word Project](labs/Word Project.html)
 
 ## Labs
-- `labs/Word Project.html`
+- [Word Project](labs/Word Project.html)
 
 ## Notes
 Module 3 supports the final Word Project by teaching the visual and collaborative document skills needed for professional reports.
