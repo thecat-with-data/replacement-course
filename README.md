@@ -1,57 +1,102 @@
 # Office Pro Replacement Course
 
-A repository containing the courseware which will hopefully replace TestOut Office Pro.
+A lightweight, LMS-agnostic courseware repository for Microsoft Office training.
 
-This courseware is coded to work with any LMS that accepts HTML documents, such as the Desire2Learn platform.
+Designed for HTML-based LMS platforms (D2L, Canvas, Blackboard, etc.) with simple file-folder deployment.
 
-The following is the structure of the coursework:
+---
 
-## Module 1 - Word Foundations
+## 📦 Repository structure
 
-This module focuses on the foundations of Microsoft Word.
+- `Microsoft Word/`
+  - `Module 1 - Word Foundations/`
+    - `Module 1 - Overview.html`
+    - `lessons/`, `labs/`, `quizzes/`
+  - `Module 2 - Word Structure/`
+  - `Module 3 - Word Graphics & Collaboration/`
+- `Microsoft Excel/`
+  - `Module 1 - Excel Foundations/`
+- `templates/`
+  - `GeneralKnowledge.csv`
+  - `D2L/…`
+  - `HTML Template Library/…`
+- `introduction/`
+  - instructor notes and course intro pages
+- `README.md`
+- `CONTRIBUTING.md`
+- `LICENSE`
 
-### Module 1 - Learning Objectives
+---
 
-- A1 - A6
+## 🎯 Goals
 
-### Module 1 - Lessons
+1. Replace TestOut Office Pro for Microsoft Office curriculum tracks.
+2. Be compatible with any LMS accepting static HTML pages.
+3. Keep the course modular for easy maintenance, review, and extension.
 
-- Lesson 1
-- Lesson 2
-- Lesson 3
+---
 
-### Module 1 - Quizzes
+## 📌 Status overview
 
-- Quiz 1
-- Quiz 2
+### Module 1 – Word Foundations
+- Lessons: complete
+- Labs: complete
+- Quizzes: complete
 
-### Module 1 - Labs
+### Module 2 – Word Structure
+- Lessons: complete
+- Labs: complete
+- Quizzes: mostly complete
 
-- Lab 1
-- Lab 2
+### Module 3 – Word Graphics & Collaboration
+- Lessons: complete
+- Labs: in progress
+- Quizzes: pending
 
-## Module 2 - Word Structure
+### Excel Module(s)
+- Module 1 scaffold: in place
+- Content: in progress
 
-This module focuses on structure in Word documents.
+---
 
-### Module 2 - Learning Objectives
+## 🚀 Quick start (LMS deployment)
 
-- A7 - A12
+1. Clone this repo.
+2. Upload or import HTML folders into LMS course sections.
+3. Link `introduction/` pages to course landing content.
+4. Validate:
+   - heading/navigation
+   - images and media
+   - links and quizzes
+5. Run pilot learner walkthrough and note any required platform-specific file path updates.
 
-### Module 2 - Lessons
+---
 
-- Lesson 1
-- Lesson 2
-- Lesson 3
-- Lesson 4
-- Lesson 5
+## 🛠️ Contribution workflow
 
-### Module 2 - Quizzes
+1. Fork and clone repository.
+2. Create a feature branch (`feature/<module>-<update>`).
+3. Edit or add HTML in `Microsoft Word` / `Microsoft Excel`.
+4. Update module progress metadata in this README (or a status file).
+5. Push and submit pull request.
+6. Reviewer validates in target LMS and signs off.
 
-- Quiz 1
-- Quiz 2
+---
 
-### Module 2 - Labs
+## 🗺️ Roadmap (recommended)
 
-- Lab 1
-- Lab 2
+- [ ] Finish Module 3 labs + quizzes
+- [ ] Complete Excel Module 1 lessons/labs/quizzes
+- [ ] Add Module 4 (if needed)
+- [ ] Add accessibility checks (WCAG 2.1)
+- [ ] Add versioning + changelog (`CHANGELOG.md`)
+
+---
+
+## 💡 Optional improvements
+
+- Add landing page for instructors (syllabus + learning objectives)
+- Add direct mapping table: objective → lesson → quiz → lab
+- Add `draft` vs `published` tag metadata in page headers
+- Enable dynamic index via script (optional)
+
